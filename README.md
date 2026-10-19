@@ -1,7 +1,38 @@
-# nmap-network-discovery-tutorial
-A practical Nmap tutorial for network discovery, port scanning, and security auditing.
-[The Hacker's Toolbox Project - Part II - JCanterino.pptx](https://github.com/user-attachments/files/33648095/The.Hacker.s.Toolbox.Project.-.Part.II.-.JCanterino.pptx)
+# nmap-network-discovery-tutorial\
 
+A practical cybersecurity tutorial introducing Nmap, an open-source network discovery and security auditing tool.
+
+## What You'll Learn
+- What Nmap does and why it matters
+- How to install and verify Nmap
+- How to discover hosts and scan TCP ports
+- How to identify service versions and estimate operating systems
+- How to interpret scan results and save output
+- How to follow an example Nmap workflow
+
+## Tutorial Presentation
+
+[**View or download the Nmap Tutorial (PowerPoint)**](.[The Hacker's Toolbox Project - Part II - JCanterino.pptx](https://github.com/user-attachments/files/33648095/The.Hacker.s.Toolbox.Project.-.Part.II.-.JCanterino.pptx))
+
+## Example Commands
+
+```bash
+nmap -sn 127.0.0.1
+sudo nmap -sS 127.0.0.1
+sudo nmap -sV -O -oA audit_results 127.0.0.1
+```
+
+These examples use localhost for practice. Results vary based on the operating system and running services.
+
+## Responsible Use
+
+Only scan systems and networks that you own or have explicit permission to assess. Follow the applicable authorization and scope requirements.
+
+Author
+
+Jessica R. J. Canterino
+
+CYB301 — Cybersecurity Fundamentals
 ---
 Cheat Sheet
 By Jessica R. J. Canterino  
