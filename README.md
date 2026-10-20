@@ -1,5 +1,5 @@
 # nmap-network-discovery-tutorial\
-
+By Jessica Canterino
 A practical cybersecurity tutorial introducing Nmap, an open-source network discovery and security auditing tool.
 
 ## What You'll Learn
@@ -10,9 +10,16 @@ A practical cybersecurity tutorial introducing Nmap, an open-source network disc
 - How to interpret scan results and save output
 - How to follow an example Nmap workflow
 
-## Tutorial Presentation
+## Hacker's Toolbox Part I
+[The Hacker's Toolbox Project - Part I_JCanterino (1).pdf](https://github.com/user-attachments/files/33677846/The.Hacker.s.Toolbox.Project.-.Part.I_JCanterino.1.pdf)
 
-[**View or download the Nmap Tutorial (PowerPoint)**](.[The Hacker's Toolbox Project - Part II - JCanterino.pptx](https://github.com/user-attachments/files/33648095/The.Hacker.s.Toolbox.Project.-.Part.II.-.JCanterino.pptx))
+## Hacker's Toolbox Part II
+
+[YouTube Demonstration Link](https://youtu.be/YVeD5lrKdHQ)
+
+##
+**Installation**
+	Nmap has minimal system requirements and runs on virtually all major operating systems, including Linux, Windows, and macOS. It requires very low processing power and memory, making it capable of running smoothly inside virtual machines or lightweight laptop environments. On Linux distributions such as Kali Linux or Ubuntu, installation is completed through the terminal by updating the package manager and running sudo apt update && sudo apt install nmap. On Windows or macOS, users can download the graphical installer or command-line package directly from the official Nmap repository. Initial configuration simply requires opening a terminal window and verifying the installation by typing nmap --version to ensure the binary executes properly and displays the installed version.
 
 ## Example Commands
 
@@ -75,3 +82,20 @@ Best Practices
 3. Audit Logging: Always use `-oA` to maintain verifiable records of scan activities, parameters, and timeframes.
 4. Timing Control: Match scan speed templates (`-T0` through `-T5`; default `-T3`) to network capacity and sensitivity to prevent service disruption.
 ---
+References
+
+Aircrack-ng. (2024). Aircrack-ng Wi-Fi security suite. [https://www.aircrack-ng.org/ ](url)
+Autopsy. (2024). Autopsy digital forensics platform. https://www.autopsy.com/ 
+Carvalho, A. M. (2023). TryHackMe: Metasploit Meterpreter overview. Medium. https://medium.com/@andreyna.m.carvalho/tryhackme-metasploit-meterpreter-14a667408b11
+Cmnatic. (2024). Offensive security intro room: Web content scanning with Dirb. TryHackMe. TryHackMe.https://tryhackme.com/room/offensivesecurityintrokKx12 
+DarkStar7471. (2020). Nmap room. TryHackMe. https://tryhackme.com/room/furthernmap 
+DigiNinja. (2024). CeWl: Custom word list generator [Computer software]. GitHub. https://github.com/digininja/Cewl 
+Double Octopus. (2024). Security wiki: Meterpreter. https://doubleoctopus.com/security-wiki/threats-and-tools/meterpreter/ 
+Flipper Devices. (2024). Flipper Zero portable micro-server for hardware and wireless security testing. https://flipper.net/ 
+Imperva. (2024). Application security: Metasploit framework and payloads. https://www.imperva.com/learn/application-security/metasploit/ 
+Kali Linux. (2024a). Bettercap network framework. Kali Linux Documentation. https://www.kali.org/tools/bettercap/ 
+Kali Linux. (2024b). Wireshark package overview. Kali Linux Documentation. https://www.kali.org/tools/wireshark/ 
+Lyon, G. (2009). Nmap reference guide. Nmap Project. https://nmap.org/book/man.html 
+MuirlandOracle. (2024). Introductory networking and basic networking tools room. TryHackMe Documentation. https://tryhackme.com/room/introtonetworking 
+ThreatLocker. (2024). WiFi Pineapple hacking: How wireless access points are impersonated. ThreatLocker Blog. https://www.threatlocker.com/blog/wifi-pineapple-hacking-how-hackers-can-infiltrate-your-wifi 
+Vectra AI. (2024). Metasploit topics & Meterpreter memory-resident agent architecture. https://www.vectra.ai/topics/metasploit 
