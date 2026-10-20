@@ -1,14 +1,7 @@
 # nmap-network-discovery-tutorial\
 By Jessica Canterino
-A practical cybersecurity tutorial introducing Nmap, an open-source network discovery and security auditing tool.
 
-## What You'll Learn
-- What Nmap does and why it matters
-- How to install and verify Nmap
-- How to discover hosts and scan TCP ports
-- How to identify service versions and estimate operating systems
-- How to interpret scan results and save output
-- How to follow an example Nmap workflow
+A practical cybersecurity tutorial introducing Nmap, an open-source network discovery and security auditing tool.
 
 ## Hacker's Toolbox Part I
 [The Hacker's Toolbox Project - Part I_JCanterino (1).pdf](https://github.com/user-attachments/files/33677846/The.Hacker.s.Toolbox.Project.-.Part.I_JCanterino.1.pdf)
@@ -17,28 +10,7 @@ A practical cybersecurity tutorial introducing Nmap, an open-source network disc
 
 [YouTube Demonstration Link](https://youtu.be/YVeD5lrKdHQ)
 
-##
-**Installation**
-	Nmap has minimal system requirements and runs on virtually all major operating systems, including Linux, Windows, and macOS. It requires very low processing power and memory, making it capable of running smoothly inside virtual machines or lightweight laptop environments. On Linux distributions such as Kali Linux or Ubuntu, installation is completed through the terminal by updating the package manager and running sudo apt update && sudo apt install nmap. On Windows or macOS, users can download the graphical installer or command-line package directly from the official Nmap repository. Initial configuration simply requires opening a terminal window and verifying the installation by typing nmap --version to ensure the binary executes properly and displays the installed version.
-<img width="1450" height="940" alt="Installation Verification" src="https://github.com/user-attachments/assets/c0f01af7-6ac4-4f76-962b-332fcaaa1616" />
-
-## Example Commands
-
-```bash
-nmap -sn 127.0.0.1
-sudo nmap -sS 127.0.0.1
-sudo nmap -sV -O -oA audit_results 127.0.0.1
-```
-
-These examples use localhost for practice. Results vary based on the operating system and running services.
-
-## Responsible Use
-
-Only scan systems and networks that you own or have explicit permission to assess. Follow the applicable authorization and scope requirements.
-
----
 **Cheat Sheet**
-By Jess Canterino  
 
 ---
 Tool Overview
@@ -89,6 +61,16 @@ Best Practices
 2. Scope Definition: Verify target IP addresses and ranges against your approved Scope of Engagement prior to execution.
 3. Audit Logging: Always use `-oA` to maintain verifiable records of scan activities, parameters, and timeframes.
 4. Timing Control: Match scan speed templates (`-T0` through `-T5`; default `-T3`) to network capacity and sensitivity to prevent service disruption.
+
+##
+**Installation**
+	Nmap has minimal system requirements and runs on virtually all major operating systems, including Linux, Windows, and macOS. It requires very low processing power and memory, making it capable of running smoothly inside virtual machines or lightweight laptop environments. On Linux distributions such as Kali Linux or Ubuntu, installation is completed through the terminal by updating the package manager and running sudo apt update && sudo apt install nmap. On Windows or macOS, users can download the graphical installer or command-line package directly from the official Nmap repository. Initial configuration simply requires opening a terminal window and verifying the installation by typing nmap --version to ensure the binary executes properly and displays the installed version.
+<img width="1450" height="940" alt="Installation Verification" src="https://github.com/user-attachments/assets/c0f01af7-6ac4-4f76-962b-332fcaaa1616" />
+
+## Responsible Use
+
+Only scan systems and networks that you own or have explicit permission to assess. Follow the applicable authorization and scope requirements.
+
 ---
 References
 
