@@ -20,6 +20,7 @@ A practical cybersecurity tutorial introducing Nmap, an open-source network disc
 ##
 **Installation**
 	Nmap has minimal system requirements and runs on virtually all major operating systems, including Linux, Windows, and macOS. It requires very low processing power and memory, making it capable of running smoothly inside virtual machines or lightweight laptop environments. On Linux distributions such as Kali Linux or Ubuntu, installation is completed through the terminal by updating the package manager and running sudo apt update && sudo apt install nmap. On Windows or macOS, users can download the graphical installer or command-line package directly from the official Nmap repository. Initial configuration simply requires opening a terminal window and verifying the installation by typing nmap --version to ensure the binary executes properly and displays the installed version.
+<img width="1450" height="940" alt="Installation Verification" src="https://github.com/user-attachments/assets/c0f01af7-6ac4-4f76-962b-332fcaaa1616" />
 
 ## Example Commands
 
