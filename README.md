@@ -37,7 +37,7 @@ These examples use localhost for practice. Results vary based on the operating s
 Only scan systems and networks that you own or have explicit permission to assess. Follow the applicable authorization and scope requirements.
 
 ---
-Cheat Sheet
+**Cheat Sheet**
 By Jessica R. J. Canterino  
 
 ---
