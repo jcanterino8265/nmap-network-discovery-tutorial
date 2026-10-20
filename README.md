@@ -38,7 +38,7 @@ Only scan systems and networks that you own or have explicit permission to asses
 
 ---
 **Cheat Sheet**
-By Jessica R. J. Canterino  
+By Jess Canterino  
 
 ---
 Tool Overview
