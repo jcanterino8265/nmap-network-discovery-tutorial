@@ -67,13 +67,19 @@ sudo nmap -sC -oA script_results <authorized-target>
 Command Switch Reference
 
 | Switch / Flag | Name | Operational Description |
-| `-sn` | Host Discovery | Determines if hosts appear online using ICMP, TCP, or ARP probes without scanning individual ports. |
-| `-sS` | TCP SYN Scan | Executes a half-open scan using raw TCP SYN packets. Requires elevated privileges (`sudo`). |
-| `-sV` | Service Detection | Probes open ports to identify running software titles and version numbers. |
-| `-O` | OS Detection | Analyzes network response fingerprints to estimate the remote operating system. |
-| `-sC` | Default Scripts | Runs default Nmap Scripting Engine (NSE) scripts to inspect discovered services. |
-| `-oA <prefix>` | All Output Formats | Automatically saves scan results in Normal (`.nmap`), XML (`.xml`), and Grepable (`.gnmap`) formats. |
-| `-Pn` | Skip Discovery | Treats all targets as online, bypassing initial host discovery probes (does not bypass firewalls). |
+ `-sn` is the host discovery option that determines if hosts appear online using ICMP, TCP, or ARP probes without scanning individual ports. 
+
+ `-sS` is a TCP SYN Scan, which executes a half-open scan using raw TCP SYN packets. Requires elevated privileges (`sudo`). 
+
+ `-sV` is service Detection, which probes open ports to identify running software titles and version numbers. 
+ 
+ `-O`, OS Detection, analyzes network response fingerprints to estimate the remote operating system. 
+ 
+ `-sC` is for Default Scripts, which runs default Nmap Scripting Engine (NSE) scripts to inspect discovered services. 
+ 
+`-oA <prefix>` is for All Output Formats, which automatically saves scan results in Normal (`.nmap`), XML (`.xml`), and Grepable (`.gnmap`) formats.
+
+ `-Pn` is Skip Discovery, which treats all targets as online, bypassing initial host discovery probes (does not bypass firewalls). 
 
 ---
 Best Practices
