@@ -67,6 +67,7 @@ sudo nmap -sC -oA script_results <authorized-target>
 Command Switch Reference
 
 | Switch / Flag | Name | Operational Description |
+
  `-sn` is the host discovery option that determines if hosts appear online using ICMP, TCP, or ARP probes without scanning individual ports. 
 
  `-sS` is a TCP SYN Scan, which executes a half-open scan using raw TCP SYN packets. Requires elevated privileges (`sudo`). 
